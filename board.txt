@@ -1,0 +1,31 @@
+PRESIDENT;	Jenny Vivenzi; 	Watsonville
+	;;	831.768.3263 FAX-831.763.4078
+	;;	jvivenzi@cityofwatsonville.org
+;;;
+PRESIDENT ELECT; 	Jill Bates; 	Santa Cruz
+	;;	831.420.5266 FAX 831.420.5271
+	;;	jbates@cityofsantacruz.com
+;;;
+TREASURER; 	Colin James; 	Mountain View
+;;		650.903.6412 FAX-650.962.1069
+;;		Colin.James@mountainview.gov
+;;;
+SECRETARY; 	John Araujo; 	Retired
+;;		408.799.6501 FAX-none
+;;		Colin.James@mountainview.gov
+;;;
+AQUATICS CO CHAIR; 	Lisa Rick; 	Morgan Hill
+;;		408.310.4301 FAX 408.778.8286
+;;		lisa.rick@morganhill.ca.gov
+;;;
+;	Aaron Bueno; 	Campbell
+;;		408.866.2741 FAX-408.374.6965
+;;		aaronb@cityofcampbell.com
+
+SOFTBALL CHAIR; 	Milee Beaulieu; 	Santa Clara
+;;		408.615.3160 FAX-None
+;;		Mbeaulieu@santaclara.gov
+
+BASKETBALL CHAIR; 	Edwin Cortez; 	San Jose
+;;		408.268.1133 Fax-408.286.3682
+;;		edwin.cortez@sanjoseca.gov

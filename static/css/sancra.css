@@ -1,0 +1,59 @@
+/* These are ELEMENTs of the page */
+
+body {
+  background-color: #fff;
+  background-image:  url("sancraBK.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  }
+
+
+h1 { text-align: center; }
+h2,h3 { color: #003263; }
+
+
+table.city {
+  font: 16px/.1 'PT Sans Narrow', sans-serif;
+  width:90%; height:200px;
+  margin: 0 40px;
+  padding: 10px;
+  }
+
+table.org {
+  font: 16px/.1 'PT Sans Narrow', sans-serif;
+  width:90%; height:30px;
+  margin: 0 40px;
+  padding: 0px;
+  }
+
+
+/* Below are the IDs of the page */
+#bodyDiv {
+  position: relative;
+  top: 180px;
+  height: 600px;
+  width:100%;
+}
+
+#pageWrapper {
+  padding 5px;
+  position: block;
+  top: 220px;
+  }
+
+#homeinfo {  /* Only used in home.html */
+  font: 17px/1.4 'PT Sans Narrow', sans-serif;
+  font-weight: italic;
+  padding: 11em 5% 0 5%;
+  text-align: left;
+  width:90%;
+
+}
+
+/* Below are the CLASSes of the page */
+tr.boardMember {
+  font-weight: bold;
+  font-family: cursive;
+  padding: 0 10% 0 10%;
+}

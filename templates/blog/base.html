@@ -1,0 +1,55 @@
+{% load staticfiles %}
+
+<html>
+<head>
+  <title>SANCRA blog</title>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+  </script>
+
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' />
+  <link href="http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+  <link rel='stylesheet' type='text/css' href="{% static 'css/pageTop.css' %}" />
+</head>
+
+<body>
+  <div id='pgTop'>
+    <div id='sancraLogo'>
+      <img src="{% static 'images/sancra.png' %}" alt="SANCRA logo" />
+    </div>
+    <p id='slogan'>Your Source for Public Sports Programs Sponsored and Administered by Public Recreation Agencies</p>
+    <input id='login' type='submit' value='MEMBER LOGIN' />
+
+    <div id=menu>
+      <ul class=main-nav>
+        <li><a href=/home>HOME</a> </li>
+        <li class=dropdown>
+          <a href=#>INFORMATION</a>
+          <ul class=drop-nav>
+            <li><a href=/board>EXECUTIVE BOARD</a></li>
+            <li><a href=/cities>MEMBER CITIES</a></li>
+            <li><a href=/orgs>ORGANIZATIONS</a></li>
+          </ul>
+        </li>
+        <li><a href=#>FORMS</a></li>
+        <li><a href=#>CODE of CONDUCT</a></li>
+        <li><a href="/">BLOG/GALLERY</a></li>
+      </ul>
+    </div>  <!-- menu -->
+  </div>   <!-- pgTop -->
+
+
+  <div class="content";>
+    <div class="row">
+      <div class="col-md-11">
+        {% block content %}
+        {% endblock %}
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

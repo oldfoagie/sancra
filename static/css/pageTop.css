@@ -1,0 +1,143 @@
+/* define elements */
+body {
+  background-color: #fff;
+  }
+
+li { list-style: none; }
+
+a { display:list-item; }
+
+li a {
+  display:list-item;
+  height:10%;
+  color:white;
+  font: bold 16px/.5 'PT Sans Narrow', sans-serif;
+  text-decoration: none;
+}
+
+li a:hover {
+  display:block;
+  /* color:#FbA40f;  /* Orange lettering */
+  /* Green lettering  The real color is #009A67 but is too dark */
+  color:#00CA97;
+  font: bold 16px/.5 'PT Sans Narrow', sans-serif;
+}
+
+
+
+
+/* define IDs here */
+
+#login { float:right; vertical-align:top; margin:10px 40px 0px 0px; }
+
+#pgTop{
+  background-color: #fff;
+  margin: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 175px;
+  width: 100%;
+  z-index: 200;
+}
+
+#menu{
+  margin: 0;
+  position: fixed;
+  left: 14%;
+  top: 13%;
+  width: 100%;
+  z-index: 200;
+}
+
+#menuTop {
+  background-color: #ddd;
+  float left;
+  top: 3;
+  left: 0;
+  height: 13px;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  }
+
+#sancraLogo { float:left; width:195px;}
+
+#slogan { float:left; width:35%; padding-top:10px; font-size: 16px; }
+
+
+/* define classes here */
+.main-nav li {
+  float: left;
+  border-radius: 10px;
+  width: 14%;
+  min-height: 20px;
+  margin: 0 .5em;
+  padding: .5em 0 0 0;
+  position: relative;
+  text-align: center;
+  background: #003263;
+  z-index: 200;
+ /* Blue background */
+ /* background-image: -webkit-gradient(linear, left top, left bottom, from(#003263), to(#0072A3)); /* for webkit browsers */
+}
+
+.main-nav li:hover {
+  /* Green color gradient */
+  /*remove the following lines for drop-down menu with images*/
+  /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007A47', endColorstr='#00CA97'); /* for IE */
+  /* background-image: -webkit-gradient(linear, left top, left bottom, from(#007A47), to(#00CA97)); /* for webkit browsers */
+  /* background-image: -moz-linear-gradient(top,  #007A47,  #00CA97); /* for firefox 3.6+ */
+}
+
+.dropdown {
+  position: relative;
+  z-index: 200;
+}
+
+.dropdown:hover {
+  position: relative;
+  color: #FbA40f;  /* Orange lettering */
+  font: bold 15px/.5 'PT Sans Narrow', sans-serif;
+  margin: 0 .5em;
+  padding: .5em 0 0 0;
+  /* background: #007A47;  /* Green Color */
+  /* Green color gradient */
+  /*remove the following lines for drop-down menu with images*/
+/*  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007A47', endColorstr='#00CA97'); /* for IE */
+/*  background-image: -webkit-gradient(linear, left top, left bottom, from(#007A47), to(#00CA97)); /* for webkit browsers */
+/*  background-image: -moz-linear-gradient(top,  #007A47,  #00CA97); /* for firefox 3.6+ */
+}
+
+.dropdown:after {  /* Creates a down arrow to the right of words */
+  color: white;
+  content: "\25bc";
+  font-size: .8em;
+  display:block;
+  position: absolute;
+  top: .5em;
+  left: 82%;
+}
+
+.dropdown:hover > .drop-nav {
+  display: block;
+  padding: 0;
+}
+
+.drop-nav {
+  display: none;
+  position: relative;
+  left: -30%;
+  top: 0.5em;
+  z-index: 200;
+}
+
+.drop-nav li {
+  left: 26%;
+  width: 99%;
+  min-height: 12px;
+  margin 0;
+  padding: .5em 0 .5em 0;
+  position: relative;
+  text-align: center;
+}
